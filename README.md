@@ -23,36 +23,17 @@ It highlights modern DevOps practices, containerization, and cloud-native deploy
 shell
 Copy code
 
-## 🔧 Setup & Usage
+# Cloud Deployment: Flask + Docker (AWS-ready)
 
-### 1. Run locally
+Working Flask API with Docker packaging. Deploy on AWS EC2 or any Docker host.
+
+## Quick start (local)
 ```bash
-# install dependencies
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-
-# run the app
 python app.py
-App will be available at: http://127.0.0.1:5000
+# open http://127.0.0.1:5000
 
-2. Run with Docker
-bash
-Copy code
-# build docker image
-docker build -t flask-aws-app .
-
-# run container
-docker run -p 5000:5000 flask-aws-app
-3. Deploy to AWS EC2
-Push the Docker image to DockerHub or AWS ECR
-
-Launch EC2 instance with Docker installed
-
-Pull and run the image
-
-Configure security group to allow HTTP (port 80 or 5000)
-
-🎯 Learning Goals
-Building and containerizing Python apps
 
 Deploying containers to the cloud
 
