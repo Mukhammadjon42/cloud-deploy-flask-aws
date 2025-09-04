@@ -21,8 +21,6 @@ It highlights modern DevOps practices, containerization, and cloud-native deploy
 
 
 shell
-Copy code
-
 # Cloud Deployment: Flask + Docker (AWS-ready)
 
 Working Flask API with Docker packaging. Deploy on AWS EC2 or any Docker host.
@@ -33,11 +31,3 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python app.py
 # open http://127.0.0.1:5000
-
-
-Deploying containers to the cloud
-
-Managing cloud resources (EC2, S3)
-
-Understanding CI/CD workflows for cloud deployment
-
