@@ -18,12 +18,7 @@ It highlights modern DevOps practices, containerization, and cloud-native deploy
 - **Linux / Bash**
 - **GitHub Actions** (CI/CD)
 
-## 📂 Project Structure
-cloud-deploy-flask-aws/
-├── app.py # Flask web app
-├── Dockerfile # Container definition
-├── requirements.txt # Python dependencies
-└── README.md
+
 
 shell
 Copy code
@@ -65,24 +60,3 @@ Managing cloud resources (EC2, S3)
 
 Understanding CI/CD workflows for cloud deployment
 
-📌 Future Improvements
-Add Nginx reverse proxy
-
-Integrate AWS RDS database
-
-Add automated CI/CD pipeline with GitHub Actions
-
-yaml
-Copy code
-
----
-
-⚡ Would you like me to also create a **professional project description** (like a one-liner) that you can paste into your CV alongside the GitHub link for this repo?
-
-
-
-
-
-
-
-Ask ChatGPT
